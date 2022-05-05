@@ -1,10 +1,6 @@
-username="32maxnospecial"
-password="64max"
-shortdesc="64max"
-longdesc="1000max"
-#^ no line sep
-# links
-mods=[[ID,type]]
-# ^ types:
-# 1=Mod
-# 2=Server
+username="32"
+password="64"
+shortdesc="64"
+longdesc="1000"
+age=1
+mods=[[ID,TYPE],]
