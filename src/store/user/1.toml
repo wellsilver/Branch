@@ -4,4 +4,7 @@ shortdesc="64max"
 longdesc="1000max"
 #^ no line sep
 # links
-mods=[(ID,link),]
+mods=[[ID,type]]
+# ^ types:
+# 1=Mod
+# 2=Server
