@@ -51,6 +51,7 @@ def index():
 @app.route('/login')
 def login():
   return 'cool'
+
 @app.route('/profile')
 @app.route('/profile/<ID>')
 def profiles(ID=None):
@@ -63,6 +64,7 @@ def profiles(ID=None):
 def getstylebecausecool(s):
   if s=="style":
     return send_file("src/html/index.css")
-  return send_file("src/html/s")
-  
+  return send_file("src/html/"+str(s))
+
+#@app.route('/favicon.ico')
 app.run(host='0.0.0.0', port=80)
